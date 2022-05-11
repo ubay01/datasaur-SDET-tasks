@@ -2,3 +2,4 @@ node_modules
 ./task_2/cypress/videos
 ./task_2/cypress/screenshots
 ./task_2/reports
+./task_2/cucumber_json
