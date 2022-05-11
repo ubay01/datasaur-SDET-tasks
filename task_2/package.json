@@ -1,0 +1,29 @@
+{
+  "name": "datasaurtask2",
+  "version": "1.0.0",
+  "description": "Compare CEO's name of SPACE X between wikipedia and Spacex Land Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --spec cypress/integration/BDD/ceo_of_spacex.feature",
+    "generate-report": "node cucumber_html_report.js"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "keywords": [],
+  "author": "Ubaidillah Amir",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^1.20.0"
+  }
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Compare the CEO of SPACE X from wikipedia with open api of SPACE X",
+    "keyword": "Feature",
+    "name": "Check CEO of SPACE X",
+    "line": 1,
+    "id": "check-ceo-of-space-x",
+    "tags": [],
+    "uri": "ceo_of_spacex.feature",
+    "elements": [
+      {
+        "id": "check-ceo-of-space-x;compare-ceo-of-space-x-from-wikipedia-and-spacex-land-api",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Compare CEO of Space X from Wikipedia and SpaceX Land API",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Get CEO name from SPACE X Land API",
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open wikipedia homepage",
+            "result": {
+              "status": "passed",
+              "duration": 528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search using keyword of CEO of SPACE X",
+            "result": {
+              "status": "passed",
+              "duration": 4699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "CEO of Space X in Wikipedia is similar from Spacex Land",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
